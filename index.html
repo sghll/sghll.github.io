@@ -1,133 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <title>Christina Truong | Resume</title>
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <!-- // Intro -->
-    <header id="about">
-      <nav>
-        <a href="#about">About</a>
-        <a href="#work">Work Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Libre+Franklin|Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="navigation.js" defer></script>
+    <title>Shen's online resume</title>
+  </head>
+  <body>
+    <header>
+      <nav class="topnav">
+        <a href="#about" title="About">
+          <span>ABOUT</span>
+          <span class="redLine">
+            <div class="nav-btn-hidden"></div>
+          </span>
+        </a>
+        <a href="#education" title="Education">
+          <span>EDUCATION</span>
+          <span class="redLine">
+            <div class="nav-btn-hidden"></div>
+          </span>
+        </a>
+        <a href="#experience" title="Experience">
+          <span>EXPERIENCE</span>
+          <span class="redLine">
+            <div class="nav-btn-hidden"></div>
+          </span>
+        </a>
+        <a href="#work" title="Work">
+          <span>WORK</span>
+          <span class="redLine">
+            <div class="nav-btn-hidden"></div>
+          </span>
+        </a>
+        <a href="#contact" title="Contact">
+          <span>CONTACT</span>
+          <span class="redLine">
+            <div class="nav-btn-hidden"></div>
+          </span>
+        </a>
       </nav>
-      <div class="content-wrap">
-        <img class="profile-img col-narrow" src="images/christina-truong.png" alt="Christina Truong">
-        <div class="col-wide">
-          <h1>Christina Truong</h1>
-          <h2>Web Developer + Educator</h2>
-          <p>As a developer, I specialize in creating modular and scalable front-end architectures. As an educator, I focus on creating inclusive learning environments, instructor training and curriculum development. I'm also a certified <a href="https://www.lesmills.com/workouts/fitness-classes/bodypump/" target="_blank">BODYPUMP</a> Instructor!</p>
+      <div class="content-wrapper">
+        <h1>Shen Tianhao</h1>
+        <h2>Digital Designer & Video Editor</h2>
+      </div>
+    </header>
+    <main>
+      <div id="about">
+        <h2>ABOUT ME</h2>
+        <p>I am a digital designer living in Canberra. Currently I am looking for a position in the arear of video, animation or graphic design. To show how much I am capable of doing, nothing is more intuitive than a showreel. And here I got one for you.</p>
+      </div>
+      <div id="education">
+        <h2>EDUCATION</h2>
+        <h3>Bachelor of Media Arts (Honours) / 2013 - 2017</h3>
+        <h3>University of New Sales Wales, College of Art & Design</h3>
+        <p>Specialisation: Animation and Visual Effects, Digital Media. <br>Date of Completion: 11 July 2017.</p>
+      </div>
+      <div id="experience">
+        <h2>WORK EXPERIENCE</h2>
+        <!-- job 1 -->
+        <div>
+          <h3>Media Assistant & Video Producer / 2016 - 2018</h3>
+          <h3>University of New Sales Wales Faculty of Law</h3>
+          <p>Shoot and edit video, create online learning module under advice from professors. In the department of Continuing Legal Education, record and edit videos for seminars take place in Sydney.</p>
+        </div>
+        <!-- job 2 -->
+        <div>
+          <h3>Video Producer / 2017</h3>
+          <h3>Koala Entertainment</h3>
+          <p>Produce promotional videos, make insctuction animations of the company's main product: mini karaoke machines.</p>
+        </div>
+        <!-- job 3 -->
+        <div>
+          <h3>Video Editor & Graphic Designer / 2018</h3>
+          <h3>Sue Grace Media</h3>
+          <p>Edit videos for the company's entertainment programs, boardcast live event and make visual designs for posters.</p>
         </div>
       </div>
-      <a href="resume.pdf" class="btn download" download>Download PDF</a>
-    </header>
-
-    <main>
-        <!-- // Work Experience -->
-        <section id="work" class="work">
-          <div class="content-wrap">
-            <h2>Work Experience</h2>
-
-            <!-- Job 1 Details -->
-            <div class="col-narrow">
-              <h3>Front-end Developer & Educator</h3>
-              <p class="uppercase">Independent / Freelance</p>
-              <p>January 2012 - Present</p>
-            </div>
-
-            <div class="col-wide job-description">
-              <p>Provides various front-end related services ranging from development work, consultations, speaking engagements, corporate training, workshops and online courses.</p>
-              <p>See more at <a href="http://christinatruong.com" target="_blank">christinatruong.com</a>.</p>
-            </div>
-
-            <!-- Job 2 Details -->
-            <div class="col-narrow">
-              <h3>Director of Curriculum</h3>
-              <p class="uppercase">Ladies Learning Code</p>
-              <p>July 2014 - February 2016</p>
-            </div>
-            <div class="col-wide job-description">
-              <p>Created and managed all curriculum and instructor training for 20+ Canadian chapters. Responsible for all tech related duties.</p>
-              <p>Key contributions:</p>
-              <ul>
-                  <li>Created 9 new workshops focusing on HTML, CSS, JavaScript, jQuery, Wordpress and Responsive Web Design.</li>
-                  <li>Created all Hackapalooza content (2 day conference style event), consisting of 2-4 hour workshop sessions focused on front-end coding languages and web development related topics.</li>
-                  <li>Lead instructor and created curriculum for the Digital Skills part-time program.</li>
-                  <li>Provided training for all instructors, in all Canadian chapters, focusing on creating an inclusive and engaging learning environment.</li>
-                  <li>Maintained the ladieslearningcode.com website.</li>
-                  <li>Created interactive slide deck template for consistent national workshop branding.</li>
-                  <li>Volunteer lead instructor from 2011-2014 for Toronto workshops and several chapter launches.</li>
-              </ul>
-            </div>
-
-            <!-- Job 3 Details -->
-            <div class="col-narrow">
-              <h3>Lead Front-End Developer</h3>
-              <p class="uppercase">Field ID</p>
-              <p>March 2013 - February 2014</p>
-            </div>
-
-            <div class="col-wide job-description">
-              <p>Lead the front-end development for in-house safety inspection software.</p>
-              <p>Key contributions:</p>
-              <ul>
-                  <li>Responsible for setting code standards for the front-end development.</li>
-                  <li>Created a fully customized front-end framework, including UI/UX.</li>
-                  <li>Standardized the site architecture and design. The framework contains reusable components and extensible classes for customization and flexibility.</li>
-              </ul>
-
-              <p>See my complete work history on <a href="https://www.linkedin.com/in/christinatruong/" target="_blank">LinkedIn</a>.</p>
-            </div>
-          </div>
-        </section>
-
-
-        <!-- // Education -->
-        <section id="education" class="education">
-          <div class="content-wrap">
-            <h2>Education</h2>
-
-            <!-- School 1 details. -->
-            <h3>Seneca College - Toronto, ON</h3>
-            <p>Webmaster Content Site Design Certificate, 2006</p>
-            <p>14 week full-time program.</p>
-
-            <!-- School 2 details. -->
-            <h3>York University - Toronto, ON</h3>
-            <p>Bachelor of Arts, 2001-2005</p>
-            <p>Double Major in Communications & Psychology.</p>
-
-            <!-- School 3 details. -->
-            <h3>San Jose State University - San Jose, CA</h3>
-            <p>General Studies, 2000</p>
-            <p>First year general studies.</p>
-          </div>
-        </section>
     </main>
 
+    <footer></footer>
 
-    <!-- // Footer & contact info -->
-    <footer id="contact">
-      <div class="content-wrap">
-        <h2>Let's Keep in Touch!</h2>
-
-        <!-- Social media links. Add or remove any networks. -->
-        <div class="contact-info">
-            <a href="mailto:email@example.com"><i class="fas fa-envelope-square"></i></a>
-            <a href="http://christinatruong.com"><i class="fas fa-link"></i></a>
-            <a href="https://twitter.com/christinatruong"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.linkedin.com/in/christinatruong/"><i class="fab fa-linkedin"></i></a>
-            <a href="http://fb.me/christinacodes"><i class="fab fa-facebook-square"></i></a>
-        </div>
-
-        <p>Copyright 2017 by Christina Truong</p>
-      </div>
-    </footer>
-</body>
+  </body>
 </html>
