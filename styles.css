@@ -1,4 +1,4 @@
-/*----------reference-------------------------
+/*
 font-family: 'Dosis', sans-serif;
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Libre Franklin', sans-serif;
@@ -9,11 +9,15 @@ font-family: 'Libre Franklin', sans-serif;
 #acd4ef blue-l2
 #dbecf8 blue-l3
 #ea3f60 red
-----------------------------------------------*/
+*/
+
 
 /*-------------fonts--------------------------*/
-* {
+html {
   box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -34,10 +38,6 @@ p {
 }
 
 /*---------header--------------------*/
-/* header  {
-  max-height: 455px;
-  overflow-x: hidden;
-} */
 .promo  {
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@ p {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 433px) and (max-width: 631px) {
+@media (min-width: 433px) and (max-width: 631px) {
   .nameAndpos {
     font-size: 10px;
   }
@@ -103,7 +103,7 @@ p {
 
 }
 
-@media screen and (max-width:432px) {
+@media (max-width:432px) {
   .nameAndpos {
     font-size: 8px;
     top: 140px;
@@ -126,16 +126,16 @@ p {
 /*----------navigation---------------*/
 .topnav {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   background-color: #2e4554;
-  opacity: 0.97;
+  opacity: 0.95;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%
+  width: 100%;
+  z-index: 999;
 }
 
 .topnav a {
@@ -176,14 +176,14 @@ p {
   transition: .2s;
 }
 
-@media screen and (min-width: 433px) and (max-width: 631px) {
+@media (min-width: 433px) and (max-width: 631px) {
   .topnav a {
     padding: 25px 10px;
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 432px) {
+@media (max-width: 432px) {
   .topnav {
     flex-wrap: wrap;
   }
@@ -206,5 +206,17 @@ p {
 
 main  {
   position: absolute;
-  top: 800px;
+  top: 455px;
+}
+
+@media (min-width: 433px) and (max-width: 631px) {
+  main  {
+    top: 416px;
+  }
+}
+
+@media (max-width: 432px) {
+  main  {
+    top: 272px;
+  }
 }
