@@ -1,0 +1,67 @@
+/* showing video when click on thumbnails */
+
+.showing  {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.90);
+}
+
+.showing iframe {
+  width: 70vw;
+  height: 39.375vw;
+  margin-top: 71px;
+}
+
+.showing i {
+  position: fixed;
+  top: 91px;
+  right: 20px;
+  font-size: 40px;
+  transform: scale(1);
+  color: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.showing i:hover {
+  transform: scale(1.2);
+  color: rgba(255,255,255,1);
+  transition: 0.1s;
+}
+
+/*-----------responsive------------*/
+
+@media (min-width: 469px) and (max-width: 691px)  {
+
+  .showing iframe {
+    width: 100vw;
+    height: 56.25vw;
+    margin-top: 68px;
+  }
+
+  .showing i {
+    position: fixed;
+    top: 88px;
+    right: 20px;
+  }
+
+}
+
+@media (max-width: 468px) {
+  .showing iframe {
+    width: 100vw;
+    height: 56.25vw;
+    margin-top: 76px;
+  }
+
+  .showing i {
+    position: fixed;
+    top: 96px;
+    right: 20px;
+  }
+}
