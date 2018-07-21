@@ -226,7 +226,7 @@ p {
 
 #experience {
   background: linear-gradient(rgba(23, 35, 42, 0.95),rgba(23, 35, 42, 0.65)), url("../images/office-lr.jpg") fixed center no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /* add transform: translate3d to solve the fixed problem */
   transform: translate3d(0,0,0);
   padding: 80px 0;
