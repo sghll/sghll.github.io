@@ -222,7 +222,7 @@ area07.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/q7_bZnY4fYw");
+  newIF.setAttribute("src", "https://www.youtube.com/embed/s8rbHgtmrv8?rel=0");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -318,7 +318,7 @@ area10.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/q7_bZnY4fYw");
+  newIF.setAttribute("src", "https://www.youtube.com/embed/Qm7UPYBfjAQ");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")

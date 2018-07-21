@@ -1,18 +1,6 @@
-/*
-font-family: 'Dosis', sans-serif;
-font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Libre Franklin', sans-serif;
-#17232a blue-d3
-#2e4554 blue-d2
-#45677e blue-d1
-#7ebce6 blue-l1
-#acd4ef blue-l2
-#dbecf8 blue-l3
-#ea3f60 red
-*/
-
 
 /*-------------fonts--------------------------*/
+
 html {
   box-sizing: border-box;
 }
@@ -41,19 +29,27 @@ p {
 .promo  {
   display: flex;
   justify-content: center;
+  position: relative;
+
 }
 
-@supports (object-fit) {
+/* @supports (object-fit) {
 
   .promo video  {
     object-fit: cover;
   }
 
+} */
+
+.promo video, .videoOverlay  {
+  height: 454px;
 }
 
-.promo video  {
+.videoOverlay {
+  position: absolute;
   top: 0px;
-  height: 454px;
+  width: 100%;
+  background: linear-gradient(rgba(23, 35, 42, 0.8), rgba(23, 35, 42, 0.3));
 }
 
 .nameAndpos {
@@ -88,8 +84,7 @@ p {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #2e4554;
-  opacity: 0.92;
+  background: linear-gradient(#2e4554, #45677e);
   position: fixed;
   top: 0;
   left: 0;
@@ -103,12 +98,12 @@ p {
   color: #dbecf8;
   padding: 25px;
   font-weight: bold;
-  background-color: #2e4554;
+  background-color: rgba(23, 35, 42, 0);
   transition: background-color .2s;
 }
 
 .topnav a:hover {
-  background-color: #17232a;
+  background-color: rgba(23, 35, 42, 1);
 }
 
 .topnav a .redLine {
@@ -183,7 +178,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 160px;
+  padding-top: 80px;
+  margin-top: 80px;
 }
 
 #about img  {
@@ -207,7 +203,8 @@ p {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-top: 160px;
+  padding-top: 80px;
+  margin-top: 80px;
 }
 
 #work > .text-warpper {
@@ -220,11 +217,12 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  padding-top: 160px;
+  padding-top: 80px;
+  margin-top: 80px;
   margin-bottom: 160px;
 }
 
-.desktop {
+.desktopEXP {
   background: linear-gradient(rgba(23, 35, 42, 0.95),rgba(23, 35, 42, 0.65)), url("../images/office.jpg") center no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -233,7 +231,7 @@ p {
   z-index: -10;
 }
 
-.mobile {
+.mobileEXP {
   background: linear-gradient(rgba(23, 35, 42, 0.95),rgba(23, 35, 42, 0.65)), url("../images/office.jpg") center no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -277,7 +275,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     font-size: 10px;
   }
 
-  .promo video  {
+  .promo video, .videoOverlay  {
     height: 416px;
   }
 
@@ -299,7 +297,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     top: 140px;
   }
 
-  .promo video  {
+  .promo video, .videoOverlay  {
     height: 272px;
   }
 
@@ -345,7 +343,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   }
 
   #about, #education {
-    padding-top: 120px;
+    margin-top: 40px;
   }
 
   #showreel iframe  {
@@ -354,7 +352,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   }
 
   #work  {
-    padding-top: 120px;
+    margin-top: 40px;
   }
 
   #work > .text-warpper {
@@ -385,7 +383,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    margin-top: 0px;
   }
 
   #showreel iframe  {
@@ -398,7 +396,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   }
 
   #work  {
-    padding-top: 80px;
+    margin-top: 0px;
     width: 100vw;
   }
 
@@ -410,7 +408,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    margin-top: 0px;
     margin-bottom: 80px;
   }
 
@@ -439,7 +437,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    margin-top: 0px;
   }
 
   #about img  {
@@ -453,7 +451,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   }
 
   #work  {
-    padding-top: 80px;
+    margin-top: 0px;
     width: 100vw;
   }
 
@@ -465,7 +463,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
+    margin-top: 0px;
     margin-bottom: 80px;
   }
 

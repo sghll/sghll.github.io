@@ -5,3 +5,4 @@ IE doesn't support CSS:grid.
 IE doesn't support object-fit.
 
 mobile browser doesn't show background image.
+-solve- use javascript to detect and change style.

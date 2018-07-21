@@ -1,3 +1,5 @@
+/* if using mobile, return true, else return false */
+
 function detectmob() {
  if( navigator.userAgent.match(/Android/i)
  || navigator.userAgent.match(/webOS/i)
@@ -14,8 +16,9 @@ function detectmob() {
   }
 }
 
+/* change experience background to not fixed when using mobile */
+
 if (detectmob()) {
   var theBG = document.querySelector("#experience");
-  console.log(theBG);
-  theBG.setAttribute("class", "mobile");
+  theBG.setAttribute("class", "mobileEXP");
 }
