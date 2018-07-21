@@ -1,5 +1,5 @@
 
-/*-------------fonts--------------------------*/
+/*-------------basics--------------------------*/
 
 html {
   box-sizing: border-box;
@@ -141,7 +141,7 @@ h2  {
 
 h3  {
   color: #45677e;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
   margin: 0 0 10px 0;
 }
@@ -149,12 +149,12 @@ h3  {
 h4  {
   color: #45677e;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: auto;
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: auto;
   color: #45677e;
 }
@@ -263,213 +263,4 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 
 .experience-warpper > .title-warpper > h3, .experience-warpper > .title-warpper > h4, .experience-warpper > .text-warpper > p {
   color: #dbecf8;
-}
-
-/*----------responsive---------------*/
-
-/* -header- */
-@media (min-width: 469px) and (max-width: 691px) {
-  .nameAndpos {
-    width: 400px;
-    margin-left: -200px;
-    font-size: 10px;
-  }
-
-  .promo video, .videoOverlay  {
-    height: 416px;
-  }
-
-  .topnav a {
-    padding: 25px 10px;
-    font-size: 14px;
-  }
-
-  main  {
-    top: 416px;
-  }
-}
-
-@media (max-width:468px) {
-  .nameAndpos {
-    width: 280px;
-    margin-left: -140px;
-    font-size: 8px;
-    top: 140px;
-  }
-
-  .promo video, .videoOverlay  {
-    height: 272px;
-  }
-
-  .video-overlay  {
-    top: 76px;
-    width: 100%;
-    height: 196px;
-  }
-
-  .topnav {
-    flex-wrap: wrap;
-  }
-
-  .topnav a {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-
-  .topnav a .redLine {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    height: 2px;
-    top: 5px;
-  }
-
-  main  {
-    top: 272px;
-  }
-}
-
-
-/* main */
-
-@media (min-width: 911px) and (max-width: 1280px) {
-  .title-warpper  {
-    width: 400px;
-  }
-
-  .text-warpper {
-    width: 400px;
-    margin-left: 60px;
-  }
-
-  #about, #education {
-    margin-top: 40px;
-  }
-
-  #showreel iframe  {
-    width: 775px;
-    height: 436px;
-  }
-
-  #work  {
-    margin-top: 40px;
-  }
-
-  #work > .text-warpper {
-    width: 860px;
-  }
-
-  #education {
-    margin-bottom: 120px;
-  }
-}
-
-@media (min-width: 624px) and (max-width: 910px) {
-
-  .title-warpper  {
-    width: 560px;
-  }
-
-  .text-warpper {
-    width: 560px;
-    margin-left: 0;
-  }
-
-  .title-warpper + .text-warpper  {
-    margin-top: 20px;
-  }
-
-  #about  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-  }
-
-  #showreel iframe  {
-    width: 560px;
-    height: 315px;
-  }
-
-  #about img  {
-    margin-bottom: 40px;
-  }
-
-  #work  {
-    margin-top: 0px;
-    width: 100vw;
-  }
-
-  #work > .text-warpper {
-    width: 560px;
-  }
-
-  #education  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 80px;
-  }
-
-  .experience-warpper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (max-width: 623px) {
-
-  .title-warpper  {
-    width: 80vw;
-  }
-
-  .text-warpper {
-    width: 80vw;
-    margin-left: 0;
-  }
-  .title-warpper + .text-warpper  {
-    margin-top: 20px;
-  }
-
-  #about  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-  }
-
-  #about img  {
-    margin-bottom: 40px;
-    height: 225px;
-  }
-
-  #showreel iframe  {
-    width: 80vw;
-    height: 45vw;
-  }
-
-  #work  {
-    margin-top: 0px;
-    width: 100vw;
-  }
-
-  #work > .text-warpper {
-    width: 80vw;
-  }
-
-  #education  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 80px;
-  }
-
-  .experience-warpper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
