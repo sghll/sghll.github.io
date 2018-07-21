@@ -224,22 +224,12 @@ p {
   margin-bottom: 160px;
 }
 
-/* #experience {
+#experience {
   background: linear-gradient(rgba(23, 35, 42, 0.95),rgba(23, 35, 42, 0.65)), url("../images/office.jpg") center no-repeat;
   background-size: cover;
   transform: translate3d(0,0,0);
   padding: 80px 0;
-} */
-
-#experience {
   z-index: -10;
-  background: url("../images/office.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  transform: translate3d(0,0,0);
-  padding: 80px 0;
 }
 
 .experience-warpper {
