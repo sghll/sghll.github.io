@@ -15,7 +15,7 @@
 
 }
 
-/* -header- */
+/* ------------------------------header------------------------------- */
 
 @media (min-width: 518px) and (max-width: 718px) {
   .nameAndpos {
@@ -79,7 +79,7 @@
 }
 
 
-/* main */
+/* --------------------------main----------------------------- */
 
 @media (min-width: 911px) and (max-width: 1280px) {
   .title-warpper  {
@@ -111,6 +111,7 @@
   #education {
     margin-bottom: 120px;
   }
+
 }
 
 @media (min-width: 624px) and (max-width: 910px) {
@@ -166,6 +167,7 @@
     flex-direction: column;
     align-items: center;
   }
+
 }
 
 @media (max-width: 623px) {
@@ -221,4 +223,5 @@
     flex-direction: column;
     align-items: center;
   }
+
 }

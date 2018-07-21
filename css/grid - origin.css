@@ -3,11 +3,7 @@
 @supports (display: grid) {
 
   /* genearl setting */
-
-  .box  {
-    position: relative;
-  }
-
+  
   .thegrid  {
     display: grid;
     width: 1200px;
@@ -19,9 +15,6 @@
 
   .box01, .box02, .box03, .box04, .box05, .box06, .box07, .box08, .box09, .box10, .box11 {
     cursor: pointer;
-    width: auto;
-    height: auto;
-    margin: 0;
   }
 
   .overlay {
@@ -38,11 +31,6 @@
   .box06 .box .overlay  {
     height: 796px;
   }
-
-  .gridtext {
-    width: 80%;
-  }
-
   .gridtext h3  {
     text-align: center;
     font-size: 32px;
@@ -60,16 +48,14 @@
 
   .overlay i  {
     font-size: 120px;
-    margin: 0;
     margin-top: 20px;
     color: #dbecf8;
   }
 
   /* set individual box's image position */
 
-  .box01 .box img, .box02 .box img, .box03 .box img, .box04 .box img, .box05 .box img, .box06 .box img, .box07 .box img, .box08 .box img, .box09 .box img, .box10 .box img, .box11 .box img {
-    margin: 0;
-    width: auto;
+  .box  {
+    position: relative;
   }
 
   .box01 .box img {
@@ -386,7 +372,7 @@
     }
 
     .gridtext {
-      max-width: 80%;
+      max-width: 90%;
     }
 
     .gridtext h3  {
@@ -519,8 +505,8 @@
 
     .overlay {
       flex-direction: row-reverse;
+      /* align-content: center; */
       height: 36vw;
-      width: 100%;
     }
 
     .box06 .box .overlay  {
@@ -531,7 +517,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      width: 60vw;
+      max-width: 60vw;
     }
 
     .gridtext h3  {
@@ -545,7 +531,6 @@
     .overlay i {
       margin: 0;
       margin-right: 20px;
-      mar
     }
 
     .box01 .box img, .box02 .box img, .box03 .box img, .box05 .box img, .box06 .box img, .box07 .box img, .box09 .box img, .box10 .box img, .box11 .box img {
@@ -668,7 +653,6 @@
   }
 
   @media (min-width: 371px) and (max-width: 553px) {
-
     .gridtext h3  {
       font-size: 24px;
     }

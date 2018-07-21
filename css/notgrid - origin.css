@@ -1,0 +1,279 @@
+/*-------------------for browsers not support grid---------------*/
+
+/* genearl setting */
+
+.box  {
+  position: relative;
+}
+
+.thegrid  {
+  margin-top: 28px;
+}
+
+.box01, .box02, .box03, .box04, .box05, .box06, .box07, .box08, .box09, .box10, .box11 {
+  cursor: pointer;
+  width: 1200px;
+  height: 320px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  height: 320px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridtext {
+  max-width: 50%;
+}
+
+.gridtext h3  {
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  color: #7ebce6;
+}
+
+.gridtext h4  {
+  text-align: left;
+  font-size: 20px;
+  margin: 0;
+  color: #dbecf8;
+}
+
+.overlay i  {
+  font-size: 120px;
+  margin-right: 20px;
+  color: #dbecf8;
+}
+
+/* set individual box's image position */
+
+.box01 .box img, .box02 .box img, .box03 .box img, .box04 .box img, .box05 .box img, .box06 .box img, .box07 .box img, .box08 .box img, .box10 .box img, .box11 .box img {
+  margin: 0;
+  width: 1200px;
+}
+
+.box03 .box img, .box04 .box img, .box07 .box img, .box08 .box img, .box09 .box img, .box10 .box img, .box11 .box img {
+  margin-top: -177.5px;
+}
+
+.box05 .box img {
+  margin-top: -300px;
+}
+
+.box06 .box img {
+  margin-top: -40px;
+}
+
+.box09 .box img  {
+  margin-top: -80px;
+}
+
+.box08 .box img {
+  margin-top: -520px;
+}
+
+/* set animation for image, overlay, text and icon*/
+
+.box > img  {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover > img  {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.box .overlay {
+  background-color: rgba(23, 35, 42, 0);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.box:hover .overlay {
+  background-color: rgba(23, 35, 42, 0.65);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.box .overlay .gridtext {
+  opacity: 0;
+  margin-top: 120px;
+  transition: 0.2s ease-in-out;
+}
+
+.box:hover .overlay .gridtext {
+  opacity: 1;
+  margin-top: 0px;
+  transition: 0.2s ease-in-out;
+}
+
+.box .overlay i {
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.box:hover .overlay i {
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+}
+
+/* responsive */
+
+@media (min-width: 911px) and (max-width: 1280px) {
+
+  .thegrid  {
+    margin-top: 32px;
+  }
+
+  .box01, .box02, .box03, .box04, .box05, .box06, .box07, .box08, .box09, .box10, .box11 {
+    width: 860px;
+    height: 280px;
+    margin-top: 8px;
+  }
+
+  .overlay {
+    height: 280px;
+  }
+
+  .box01 .box img, .box02 .box img, .box03 .box img, .box04 .box img, .box05 .box img, .box06 .box img, .box07 .box img, .box08 .box img, .box10 .box img, .box11 .box img {
+    margin: 0;
+    width: 860px;
+  }
+
+  .box03 .box img, .box04 .box img, .box07 .box img, .box10 .box img, .box11 .box img {
+    margin-top: -101.875px;
+  }
+
+  .box05 .box img  {
+    margin-top: -180px;
+  }
+  .box08 .box img {
+    margin-top: -300px;
+  }
+
+}
+
+@media (min-width: 624px) and (max-width: 910px) {
+
+  .thegrid  {
+    margin-top: 32px;
+  }
+
+  .box01, .box02, .box03, .box04, .box05, .box06, .box07, .box08, .box09, .box10, .box11 {
+    width: 560px;
+    height: 220px;
+    margin-top: 8px;
+  }
+
+  .overlay {
+    height: 220px;
+  }
+
+  .box01 .box img, .box02 .box img, .box03 .box img, .box04 .box img, .box05 .box img, .box06 .box img, .box07 .box img, .box08 .box img, .box10 .box img, .box11 .box img {
+    margin: 0;
+    width: 560px;
+  }
+
+  .box03 .box img, .box04 .box img, .box07 .box img, .box10 .box img, .box11 .box img {
+    margin-top: -47.5px;
+  }
+
+  .box05 .box img {
+    margin-top: -80px;
+  }
+
+  .box08 .box img {
+    margin-top: -200px;
+  }
+
+   .box09 .box img {
+     margin-top: -120px;
+     margin-left: -240px;
+   }
+
+}
+
+@media (max-width: 623px) {
+
+  .thegrid  {
+    margin-top: 38px;
+  }
+
+  .box01, .box02, .box03, .box04, .box05, .box06, .box07, .box08, .box09, .box10, .box11 {
+    width: 100vw;
+    height: 36vw;
+    margin-top: 2px;
+  }
+
+  .overlay {
+    height: 36vw;
+  }
+
+  .box01 .box img, .box02 .box img, .box03 .box img, .box05 .box img, .box06 .box img, .box07 .box img, .box09 .box img, .box10 .box img, .box11 .box img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .box03 .box img {
+    margin-top: -10.125vw;
+  }
+
+  .box04 .box img {
+    width: 150vw;
+    margin-left: -25vw;
+    margin-top: -18vw;
+  }
+
+  .box05 .box img {
+    margin-top: -20.25vw;
+  }
+
+  .box07 .box img {
+    margin-top: -10.125vw;
+  }
+
+  .box08 .box img {
+    width: 100%;
+    height: auto;
+    margin-top: -30vw;
+  }
+
+  .box09 .box img {
+    margin-top: -6vw;
+  }
+
+  .box10 .box img {
+    width: 130%;
+    margin-left: -10vw;
+    margin-top: -10.125vw;
+  }
+
+  .box11 .box img {
+    margin-top: -10.125vw;
+  }
+
+  @media (max-width: 477px) {
+    .gridtext h3  {
+      font-size: 20px;
+    }
+
+    .gridtext h4  {
+      font-size: 12px;
+    }
+
+    .overlay i {
+      margin-right: 20px;
+      font-size: 65px;
+    }
+  }
+
+}
