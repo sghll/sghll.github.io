@@ -43,11 +43,16 @@ p {
   justify-content: center;
 }
 
+@supports (object-fit) {
+
+  .promo video  {
+    object-fit: cover;
+  }
+
+}
+
 .promo video  {
-  position: absolute;
   top: 0px;
-  object-fit: cover;
-  width: 100vw;
   height: 454px;
 }
 
@@ -221,6 +226,7 @@ p {
 
 #experience {
   background: linear-gradient(rgba(23, 35, 42, 0.95),rgba(23, 35, 42, 0.65)), url("../images/office-lr.jpg") fixed center no-repeat;
+  background-size: 100%;
   /* add transform: translate3d to solve the fixed problem */
   transform: translate3d(0,0,0);
   padding: 80px 0;
@@ -262,8 +268,6 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   }
 
   .promo video  {
-    position: absolute;
-    max-width: 100vw;
     height: 416px;
   }
 
@@ -283,13 +287,9 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     margin-left: -140px;
     font-size: 8px;
     top: 140px;
-
   }
 
   .promo video  {
-    position: absolute;
-    object-fit: cover;
-    max-width: 100vw;
     height: 272px;
   }
 
@@ -308,7 +308,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
     font-size: 14px;
   }
 
-  .redLine {
+  .topnav a .redLine {
     position: relative;
     display: flex;
     justify-content: center;
