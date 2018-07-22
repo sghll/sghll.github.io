@@ -265,4 +265,53 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   color: #dbecf8;
 }
 
-/* ---------------------------work--------------------------- */
+#skill  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 80px;
+  margin: 80px 0;
+}
+
+#skill > .text-warpper {
+  margin: auto;
+  width: 1200px;
+}
+
+/* --------------------swipper-------------------- */
+
+.swiper-container {
+  width: 1200px;
+  height: 540px;
+  background: #000;
+}
+.swiper-slide {
+  font-size: 18px;
+  color:#fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
