@@ -181,6 +181,37 @@
     font-size: 16px;
   }
 
+  #contact  {
+    padding-top: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    width: 860px;
+  }
+
+  .contact-title  {
+    width: 400px;
+    margin: 0;
+  }
+
+  .contact-warpper  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-content  {
+    width: 400px;
+  }
+
+  .contact-form {
+  	max-width:400px;
+  	width:100%;
+  	margin:0;
+    margin-left: 60px;
+  	position:relative;
+  }
+
 }
 
 @media (min-width: 624px) and (max-width: 910px) {
@@ -292,6 +323,34 @@
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
     font-size: 16px;
+  }
+
+  #contact  {
+    padding-top: 80px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 80px;
+    width: 560px;
+  }
+
+  .contact-title  {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-warpper  {
+    display: block;
+  }
+
+  .contact-content  {
+    width: 100%;
+  }
+
+  .contact-form {
+  	width:100%;
+  	margin:0;
+  	position:relative;
+    margin-top: 40px
   }
 
 }
@@ -416,6 +475,34 @@
       font-size: 95%;
     }
 
+  }
+
+  #contact  {
+    padding-top: 80px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    width: 80vw;
+  }
+
+  .contact-title  {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-warpper  {
+    display: block;
+  }
+
+  .contact-content  {
+    width: 100%;
+  }
+
+  .contact-form {
+  	width:100%;
+  	margin:0;
+  	position:relative;
+    margin-top: 40px
   }
 
 }

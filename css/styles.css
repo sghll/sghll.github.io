@@ -347,7 +347,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 }
 
 .skill-warpper h4 {
-  color: #ea3f60;
+  color: #7ebce6;
   font-size: 1.2em;
   margin-bottom: 20px;
 }
@@ -421,13 +421,15 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 /*--------------------contact---------------------------*/
 #contact  {
   padding-top: 80px;
-  margin-top: 80px;
+  margin: 0 auto;
+  margin-top: 40px;
   margin-bottom: 120px;
+  width: 1200px;
 }
 
 .contact-title  {
   width: 560px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .contact-warpper  {
@@ -454,18 +456,17 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 .contact-form {
 	max-width:560px;
 	width:100%;
-	margin:0 auto;
+	margin:0;
+  margin-left: 80px;
 	position:relative;
 }
 
 #qcf input[type="text"], #qcf input[type="email"], #qcf input[type="tel"], #qcf input[type="url"], #qcf textarea, #qcf button[type="submit"] {
-  font:400 1.2em "Lato", Helvetica, Arial, sans-serif;
+  font:400 1em "Lato", Helvetica, Arial, sans-serif;
 }
 
 #qcf {
-	background:#dbecf8;
-	padding:25px;
-	margin:50px 0;
+	margin:0;
 }
 
 #qcf h3 {
@@ -503,7 +504,7 @@ fieldset {
 }
 
 #qcf textarea {
-	height:100px;
+	height:200px;
 	max-width:100%;
   resize:none;
 }
@@ -556,6 +557,5 @@ fieldset {
 #copyright p {
   font-size: 15px;
   text-align: center;
-  max-width: 50vw;
   color: #dbecf8;
 }

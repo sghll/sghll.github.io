@@ -382,38 +382,41 @@
           </script>
         </div>
         <div id="contact">
-          <div class="contact-title">
-            <h2>CONTACT</h2>
-            <div class="underline"></div>
-          </div>
           <div class="contact-warpper">
             <div class="contact-content">
+              <div class="contact-title">
+                <h2>CONTACT</h2>
+                <div class="underline"></div>
+              </div>
               <p>Let's keep in touch. If there is anything to say, you are welcome to contact me through email, SMS or using the quick contact form.</p>
               <p><i class="fas fa-envelope"></i>sghll@hotmail.com</p>
               <p><i class="fas fa-phone-square"></i>+61 404634369</p>
               <p><i class="fas fa-map-marked-alt"></i>Unit 6/12 Lomax St, Forde ACT 2914</p>
             </div>
-          </div>
-          <div class="contact-form">
-            <form id="qcf" action="" method="post">
-              <h3>Quick Contact</h3>
-              <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" autofocus>
-              </fieldset>
-              <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2">
-              </fieldset>
-              <fieldset>
-                <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-              </fieldset>
-              <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-              </fieldset>
-            </form>
+            <div class="contact-form">
+              <form id="qcf" action="" method="post">
+                <h3>Quick Contact</h3>
+                <fieldset>
+                  <input placeholder="Your name" type="text" tabindex="1" autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Email Address" type="text" tabindex="2">
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." type="text" tabindex="3"></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>
+            </div>
           </div>
         </div>
         <div id="copyright">
           <p>&copy; 2018 Shen Tianhao All rights reserved</p>
+          <?php
+          echo "Copyright &copy; 1999-" . date("Y") . " W3Schools.com";
+          ?>
         </div>
       </main>
     </div>
