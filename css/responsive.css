@@ -112,6 +112,67 @@
     margin-bottom: 120px;
   }
 
+  .education-title  {
+    width: 860px;
+  }
+
+  .education-title div  {
+    width: 400px;
+  }
+
+  .experience-title {
+    width: 860px;
+    margin: 0 auto;
+    color: #7ebce6;
+  }
+
+  .experience-title div{
+    width: 400px;
+  }
+
+  #skill  {
+    margin-top: 40px;
+  }
+
+  .skill-title  {
+    width: 860px;
+    margin: 0 auto;
+  }
+
+  .swiper-container {
+    width: 860px;
+    height: 540px;
+  }
+
+  .skill-warpper  {
+    display: flex;
+    align-items: center;
+  }
+
+  .skill-warpper img  {
+    width: auto;
+    height: 240px;
+  }
+
+  .skill-content  {
+    margin-left: 80px;
+    width: 400px;
+  }
+
+  .level-bar {
+    margin-left: 40px;
+    position: relative;
+    width: 250px;
+    height: 20px;
+    background-color: #2e4554;
+    border: 2px solid;
+    border-color: #dbecf8;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 624px) and (max-width: 910px) {
@@ -162,10 +223,67 @@
     margin-bottom: 80px;
   }
 
+  .education-title  {
+    width: 560px;
+  }
+
+  .education-title div  {
+    width: 100%;
+  }
+
+  .education-content  {
+    display: block;
+  }
+
+  .experience-title {
+    width: 560px;
+  }
+
   .experience-warpper {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #skill  {
+    margin-top: 0px;
+  }
+
+  .skill-title  {
+    width: 560px;
+    margin: 0 auto;
+  }
+
+  .swiper-container {
+    width: 100vw;
+    height: 440px;
+  }
+
+  .skill-warpper  {
+    display: block;
+  }
+
+  .skill-warpper img, .swiper-button-prev, .swiper-button-next  {
+    display: none;
+  }
+
+  .skill-content  {
+    margin-left: 0px;
+    width: 560px;
+  }
+
+  .level-bar {
+    margin-left: 40px;
+    position: relative;
+    width: 250px;
+    height: 20px;
+    background-color: #2e4554;
+    border: 2px solid;
+    border-color: #dbecf8;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
   }
 
 }
@@ -218,10 +336,71 @@
     margin-bottom: 80px;
   }
 
+  .education-title  {
+    width: 80vw;
+  }
+
+  .education-title div  {
+    width: 100%;
+  }
+
+  .education-content  {
+    display: block;
+  }
+
+  .experience-title {
+    width: 80vw;
+  }
+
+  .experience-title div{
+    width: 100%;
+  }
+
   .experience-warpper {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #skill  {
+    margin-top: 0px;
+  }
+
+  .skill-title  {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .swiper-container {
+    width: 100vw;
+    height: 440px;
+  }
+
+  .skill-warpper  {
+    display: block;
+  }
+
+  .skill-warpper img, .swiper-button-prev, .swiper-button-next, .level-warpper h3  {
+    display: none;
+  }
+
+  .skill-content  {
+    margin-left: 0px;
+    width: 80vw;
+  }
+
+  .level-bar {
+    margin-left: 0px;
+    position: relative;
+    width: 250px;
+    height: 20px;
+    background-color: #2e4554;
+    border: 2px solid;
+    border-color: #dbecf8;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
   }
 
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Libre+Franklin|Nanum+Gothic|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Lato" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/notgrid.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -221,21 +221,28 @@
           </div>
         </div>
         <div id="education">
-          <div class="title-warpper">
+          <div class="education-title">
             <h2>EDUCATION</h2>
             <div class="underline"></div>
-            <h3>Bachelor of Media Arts (Honours) / 2013 - 2017</h3>
-            <h4>University of New Sales Wales, College of Art & Design</h3>
           </div>
-          <div class="text-warpper">
-            <p>Specialisation: Animation and Visual Effects, Digital Media. <br>Date of Completion: 11 July 2017.</p>
+          <div class="education-content">
+            <div class="title-warpper">
+              <h3>Bachelor of Media Arts (Honours) / 2013 - 2017</h3>
+              <h4>University of New Sales Wales, College of Art & Design</h3>
+            </div>
+            <div class="text-warpper">
+              <p>Specialisation: Animation and Visual Effects, Digital Media. <br>Date of Completion: 11 July 2017.</p>
+            </div>
           </div>
+
         </div>
         <div id="experience" class="desktopEXP">
+          <div class="experience-title">
+            <h2>EXPERIENCE</h2>
+            <div class="underline"></div>
+          </div>
           <div class="experience-warpper">
             <div class="title-warpper">
-              <h2>EXPERIENCE</h2>
-              <div class="underline"></div>
               <h3>Media Assistant & Video Producer / 2016 - 2018</h3>
               <h4>University of New Sales Wales Faculty of Law</h3>
             </div>
@@ -263,7 +270,7 @@
           </div>
         </div>
         <div id="skill">
-          <div class="text-warpper">
+          <div class="skill-title">
             <h2>SKILL</h2>
             <div class="underline"></div>
           </div>
@@ -359,10 +366,10 @@
             var swiper = new Swiper('.swiper-container', {
               speed: 600,
               parallax: true,
-              autoplay: {
-              delay: 8000,
-              disableOnInteraction: false,
-              },
+              // autoplay: {
+              // delay: 8000,
+              // disableOnInteraction: false,
+              // },
               grabCursor: true,
               pagination: {
                 el: '.swiper-pagination',

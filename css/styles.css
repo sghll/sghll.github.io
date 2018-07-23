@@ -13,16 +13,12 @@ html, body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4  {
+h1, h2, h3, a {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  font-family: 'Nanum Gothic', sans-serif;
-}
-
-p {
-  font-family: 'Dosis', sans-serif;
+p, h4 {
+  font-family: 'Lato', sans-serif;
 }
 
 /*---------header--------------------*/
@@ -32,14 +28,6 @@ p {
   position: relative;
 
 }
-
-/* @supports (object-fit) {
-
-  .promo video  {
-    object-fit: cover;
-  }
-
-} */
 
 .promo video, .videoOverlay  {
   height: 454px;
@@ -135,6 +123,7 @@ main  {
 
 h2  {
   font-size: 2.5em;
+  font-weight: bold;
   margin: 0 0 20px 0;
   color: #2e4554;
 }
@@ -143,7 +132,7 @@ h3  {
   color: #45677e;
   font-size: 1.3em;
   font-weight: bold;
-  margin: 0 0 10px 0;
+  margin: 0;
 }
 
 h4  {
@@ -157,6 +146,7 @@ p {
   font-size: 1.2em;
   margin: auto;
   color: #45677e;
+  text-align: justify;
 }
 
 .title-warpper  {
@@ -213,13 +203,25 @@ p {
 }
 
 #education  {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
   padding-top: 80px;
   margin-top: 80px;
   margin-bottom: 160px;
+}
+
+.education-title  {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.education-title div  {
+  width: 560px;
+}
+
+.education-content  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .desktopEXP {
@@ -240,11 +242,25 @@ p {
   z-index: -10;
 }
 
+.experience-title {
+  width: 1200px;
+  margin: 0 auto;
+  color: #7ebce6;
+}
+
+.experience-title h2{
+  color: #7ebce6;
+}
+
+.experience-title div{
+  width: 560px;
+}
+
 .experience-warpper {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 /* The + combinator selects adjacent siblings. This means that the second element directly follows the first, and both share the same parent.
@@ -257,10 +273,6 @@ Here use + combinator to select the second and third experience-warpper. */
 /* The > combinator selects nodes that are direct children of the first element.
 Here use > combinator to select h2, h3, h4 and p that are children of either title-warpper or text-warpper. */
 
-.experience-warpper > .title-warpper > h2 {
-  color: #7ebce6;
-}
-
 .experience-warpper > .title-warpper > h3, .experience-warpper > .title-warpper > h4, .experience-warpper > .text-warpper > p {
   color: #dbecf8;
 }
@@ -271,7 +283,7 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   align-items: center;
   margin: auto;
   padding-top: 80px;
-  margin: 80px 0;
+  margin-top: 80px;
 }
 
 #skill > .text-warpper {
@@ -279,7 +291,12 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   width: 1200px;
 }
 
-/* --------------------swipper-------------------- */
+/* --------------------skill swipper-------------------- */
+
+.skill-title  {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .swiper-container {
   width: 1200px;
@@ -311,25 +328,25 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 
 .skill-warpper  {
   display: flex;
+  align-items: center;
 }
 
 .skill-warpper img  {
   width: auto;
   height: 320px;
+  border-radius: 50%;
 }
 
 .skill-content  {
   margin-left: 80px;
   width: 520px;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .skill-warpper .text-warpper  {
   width: auto;
   margin: 0;
+  margin-bottom: 40px;
 }
 
 .skill-warpper h3 {
