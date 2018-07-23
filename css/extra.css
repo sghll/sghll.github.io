@@ -10,21 +10,21 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.90);
+  z-index: 100;
 }
 
 .showing iframe {
-  width: 70vw;
-  height: 39.375vw;
-  margin-top: 71px;
+  width: 80vw;
+  height: 45vw;
 }
 
 .showing i {
   position: fixed;
-  top: 91px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   font-size: 40px;
   transform: scale(1);
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   cursor: pointer;
 }
 
@@ -36,32 +36,11 @@
 
 /*-----------responsive------------*/
 
-@media (min-width: 469px) and (max-width: 691px)  {
+@media (max-width: 100vh)  {
 
   .showing iframe {
     width: 100vw;
     height: 56.25vw;
-    margin-top: 68px;
   }
 
-  .showing i {
-    position: fixed;
-    top: 88px;
-    right: 20px;
-  }
-
-}
-
-@media (max-width: 468px) {
-  .showing iframe {
-    width: 100vw;
-    height: 56.25vw;
-    margin-top: 76px;
-  }
-
-  .showing i {
-    position: fixed;
-    top: 96px;
-    right: 20px;
-  }
 }

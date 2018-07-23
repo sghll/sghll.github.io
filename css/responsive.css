@@ -15,6 +15,14 @@
 
 }
 
+/* navbar */
+
+@media (max-height: 480px) {
+  .topnav {
+    position: absolute;
+  }
+}
+
 /* ------------------------------header------------------------------- */
 
 @media (min-width: 518px) and (max-width: 718px) {
@@ -315,8 +323,8 @@
   }
 
   #showreel iframe  {
-    width: 80vw;
-    height: 45vw;
+    width: 100vw;
+    height: 56.25vw;
   }
 
   #work  {

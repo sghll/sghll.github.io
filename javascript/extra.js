@@ -318,7 +318,7 @@ area10.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/Qm7UPYBfjAQ");
+  newIF.setAttribute("src", "https://www.youtube.com/embed/Qm7UPYBfjAQ?ref=0");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
