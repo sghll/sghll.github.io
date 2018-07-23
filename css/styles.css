@@ -14,7 +14,7 @@ html, body {
 }
 
 h1, h2, h3, h4  {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -284,15 +284,8 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 .swiper-container {
   width: 1200px;
   height: 540px;
-  background: #000;
 }
-.swiper-slide {
-  font-size: 18px;
-  color:#fff;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 40px 60px;
-}
+
 .parallax-bg {
   position: absolute;
   left: 0;
@@ -303,15 +296,116 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
   background-size: cover;
   background-position: center;
 }
-.swiper-slide .title {
-  font-size: 41px;
-  font-weight: 300;
+
+.swiper-slide {
+  font-size: 18px;
+  color:#fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.swiper-slide .subtitle {
-  font-size: 21px;
+
+.skill-warpper  {
+  display: flex;
 }
-.swiper-slide .text {
-  font-size: 14px;
-  max-width: 400px;
-  line-height: 1.3;
+
+.skill-warpper img  {
+  width: auto;
+  height: 320px;
+}
+
+.skill-content  {
+  margin-left: 80px;
+  width: 520px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-warpper .text-warpper  {
+  width: auto;
+  margin: 0;
+}
+
+.skill-warpper h3 {
+  color: #7ebce6;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.skill-warpper h4 {
+  color: #ea3f60;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.skill-warpper p {
+  color: #dbecf8;
+  text-align: justify;
+}
+
+.level-warpper  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.level-warpper h3 {
+  color: #dbecf8;
+  margin: 0;
+}
+
+.level-bar {
+  margin-left: 40px;
+  position: relative;
+  width: 300px;
+  height: 20px;
+  background-color: #2e4554;
+  border: 2px solid;
+  border-color: #dbecf8;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#veLevel {
+  position: absolute;
+  top: 0;
+  width: 85%;
+  height: 100%;
+  background-color: #dbecf8;
+  color: #17232a;
+}
+
+#gdLevel {
+  position: absolute;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  background-color: #dbecf8;
+  color: #17232a;
+}
+
+#thirdLevel {
+  position: absolute;
+  top: 0;
+  width: 65%;
+  height: 100%;
+  background-color: #dbecf8;
+  color: #17232a;
+}
+
+#feLevel {
+  position: absolute;
+  top: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #dbecf8;
+  color: #17232a;
 }
