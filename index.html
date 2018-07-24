@@ -393,7 +393,23 @@
               <p><i class="fas fa-phone-square"></i>+61 404634369</p>
               <p><i class="fas fa-map-marked-alt"></i>Unit 6/12 Lomax St, Forde ACT 2914</p>
             </div>
-            <iframe src="form.php" class="contact-form"></iframe>
+            <div class="contact-form">
+              <form id="qcf" action="form_process.php" method="post">
+                <h3>Quick Contact</h3>
+                <fieldset>
+                  <input placeholder="Your name" type="text" tabindex="1" name="name" autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Email Address" type="email" tabindex="2" name="email">
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." type="text" tabindex="3" name="message"></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>
+            </div>
           </div>
         </div>
         <div id="copyright">
