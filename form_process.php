@@ -15,9 +15,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = test_input($_POST["email"]);
   }
 
-  if (empty($_POST["email"]) == false) {
+  if (empty($_POST["message"]) == false) {
 
-    $email = test_input($_POST["email"]);
+    $message = test_input($_POST["message"]);
+    
     $message_body = '';
     $to = 'sghll@hotmail.com';
     $subject = 'Contact Form Submit';
