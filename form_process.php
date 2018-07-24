@@ -1,7 +1,13 @@
-<?php
-echo "Hello";
-
-?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <?php echo "hello"; ?>
+  </body>
+</html>
 
 // if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //
