@@ -17,7 +17,7 @@
 
 /* navbar */
 
-@media (max-height: 480px) {
+@media (max-height: 480px) and (max-height: 100vw) {
   .topnav {
     position: absolute;
   }
