@@ -21,6 +21,10 @@ p, h4 {
   font-family: 'Lato', sans-serif;
 }
 
+p a {
+  color: #ea3f60;
+}
+
 /*---------header--------------------*/
 .promo  {
   display: flex;
@@ -441,12 +445,18 @@ Here use > combinator to select h2, h3, h4 and p that are children of either tit
 .contact-content  {
   width: 560px;
 }
-
-.contact-content p {
-  margin-bottom: 20px;
+.contact-info {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
 }
 
-.contact-content i {
+.contact-info p {
+  margin: 0;
+}
+
+.contact-info i {
+  color: #45677e;
   width: 60px;
   font-size: 30px;
 }
