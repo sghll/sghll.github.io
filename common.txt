@@ -1,0 +1,16 @@
+(h1, h2, h3, h4)
+font-family: 'Dosis', sans-serif;
+
+(a)
+font-family: 'Nanum Gothic', sans-serif;
+
+(p)
+font-family: 'Libre Franklin', sans-serif;
+
+#17232a blue-d3
+#2e4554 blue-d2
+#45677e blue-d1
+#7ebce6 blue-l1
+#acd4ef blue-l2
+#dbecf8 blue-l3
+#ea3f60 red
