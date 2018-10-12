@@ -62,7 +62,7 @@ area02.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/q7_bZnY4fYw?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=33670438&cid=58952305&page=5");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -94,7 +94,7 @@ area03.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/Lftpo2uTrqU?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=33670438&cid=58952305&page=2");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -126,7 +126,7 @@ area04.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/pG5vEFoF0LA?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=33670438&cid=58952305&page=4");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -158,7 +158,7 @@ area05.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/vrkV-EGfWDc?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=33670438&cid=58952305&page=7");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -190,7 +190,7 @@ area06.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/VE9YIgMvnhU?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=33670438&cid=58952305&page=8");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -222,7 +222,7 @@ area07.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/s8rbHgtmrv8?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=33670438&cid=58952305&page=6");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -254,7 +254,7 @@ area08.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/HQ9KTMbhHsU?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=25356270&cid=43067095&page=1");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -286,7 +286,7 @@ area09.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/lZqwsGi-aSs?rel=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=30849870&cid=54115841&page=1");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
@@ -318,7 +318,7 @@ area10.addEventListener("click", function(e) {
   theMain.appendChild(newDIV);
   newDIV.className = "showing";
   newI.className = "far fa-times-circle";
-  newIF.setAttribute("src", "https://www.youtube.com/embed/Qm7UPYBfjAQ?ref=0");
+  newIF.setAttribute("src", "//player.bilibili.com/player.html?aid=32823095&cid=57443918&page=1");
   newIF.setAttribute("frameborder", "0");
   newIF.setAttribute("allowfullscreen", "");
   newIF.setAttribute("allow", "autoplay; encrypted-media")
